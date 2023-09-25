@@ -1,0 +1,16 @@
+Làm việc với Environment Variables trong Node.js (Biến môi trường trong node)
+
+b1 Create file .env
+Đầu tiên chúng ta tạo một file .env ở thư mục dự án của các bạn với nội dung là các Environment Variables mà các bạn cần sử dụng
+
+NODE_ENV=development
+
+b2 Install the dotenv npm package: npm i dotenv --s
+
+b3 import dotenv vào file *.js : require('dotenv').config();
+
+b4 truy xuất các biến trong tập tin .env
+
+process.env.NODE_ENV
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////

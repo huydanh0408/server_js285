@@ -1,0 +1,34 @@
+Mô hình
+    client(WEB) -> request(YÊU CẦU - API ) -> server(NODEJS - XỬ LÝ)-> response(KẾT QUẢ) -> client 
+    dữ liệu: thao tác tập tin json
+==================================
+b1 Tạo thư mục he_phuc_vu
+b2 Tạo tập tin: package.json-> Lưu trữ các thông tin, các gói cài đặt của project
+    b2.1 Mở cửa sổ Terminal-> npm init -y
+    b2.2 Cú pháp cài đặt: 
+        npm i <moduleName>[@5.1.2] --s
+        ví dụ: gói thư viện mongodb: npm i mongodb --s (Xem nội dung tập tin: package.json )
+    b2.3 Cú pháp gỡ cài đặt:
+        npm uninstall <moduleName>[@version]
+    b2.4 Cú pháp cài đặt các gói trong tập tin package.json
+        npm i
+=====================================
+1/ http://localhost:8080 -> error
+2/ http://127.0.0.1:8080
+=====================================
+Trong VS CODE
+    extensions -> rest Client
+=====================================
+Trong project (he_phuc_vu)
+    Tạo tập tin testAPI.rest    
+
+=========================================== Upload Images cloud ================
+b1 install module cloudinary
+    npm i cloudinary --s
+b2 Khai báo biến môi trường .env
+    CLOUD_NAME
+    PI_KEY
+    PI_SECRET
+b3 require cloudinaryImages.js vào service.js
+    const imgCloud = require('./cloudinaryImages');
+

@@ -1,0 +1,25 @@
+### GET
+GET http://localhost:8080
+### GET Tivi List
+GET  http://localhost:8080/tiviList
+### GET Mobile List
+GET  http://localhost:8080/mobileList
+### GET Food List
+GET  http://localhost:8080/foodList
+### GET Store List
+GET  http://localhost:8080/storeInfo
+### GET IMG 
+GET  http://localhost:8080/TIVI_3.png
+### GET STUDENT 
+GET  http://localhost:8080/studentList
+### GET USER 
+GET  http://localhost:8080/userList
+
+### POST
+POST http://localhost:8080
+###
+POST http://localhost:8080/deleteUser
+###
+# Test SendMail
+POST http://localhost:8080/contact
+###
